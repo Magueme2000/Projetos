@@ -1,0 +1,17 @@
+public class Usuario {
+    
+    public static void main(String[] args) throws Exception {
+
+        SmartTv smartTv = new  SmartTv();
+
+        smartTv.ligar();
+        smartTv.diminuirVolume();
+        smartTv.retrocederCanal();
+
+        System.out.println("TV ligada: " + smartTv.ligada);
+        System.out.println("Canal: " + smartTv.canal);
+        System.out.println("Volume: " + smartTv.volume);
+
+        
+    }
+}
